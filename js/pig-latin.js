@@ -58,9 +58,11 @@ const pigLatinator = function () {
       return lowerCase;
     })
 
-    // console.log(beginsWithVowel);
-    // console.log('\n\n');
-    // console.log(beginsWithConsonant);
+    console.log(beginsWithVowel);
+    console.log(beginsWithConsonant);
+
+    console.log(`pigLatinResult is:`);
+    console.log(pigLatinResult);
 
     return result.join(' ');
   }
@@ -77,7 +79,7 @@ const pigLatinator = function () {
   }
 }
 
-const sampleText = `Rain dance trust the process kirlian photography, combined energy fields burning man. Astrological earth day tantra, sarong loving kindness alkaline healing energy fractal nature of. Surrender didgeridoo tie-dye, the dali lama acupuncture Hafiz salvia cold plunge hooping. Reproductive system lingham contact improv, dharma stevia twelfth house seventh generation new paradigm apple cider vinegar solstice talking stick. Ecstatic dance rebirthing mind-body science has proven that papasan tai chi authentic self cleansing, human potential yogic. Biodiesel midwifery nonlinear, marinese perineum heart-based heartbeat of our ancestors kombucha sacred ruins dead sea minerals. Himalayan sea salt medical marijuana taurus hemp seed optimal frequency, shanti nag champa. Namaste.`
+const sampleText = `Rain dance trust the process kirlian photography, combined energy fields burning man. Astrological earth day tantra, sarong loving kindness alkaline healing energy fractal nature of.`;
 
 pigLatinator().toPigLatin(sampleText);
 pigLatinator().getPigLatinResult();
