@@ -1,0 +1,25 @@
+{
+  "name": "pig-latin-translator",
+  "version": "0.0.1",
+  "description": "A new alien species has moved to earth and they only speak pig-latin! The president has called you and says that they need your help!",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbuzzeo/pig-latin-translator.git"
+  },
+  "author": "zbuzzeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbuzzeo/pig-latin-translator/issues"
+  },
+  "homepage": "https://github.com/zbuzzeo/pig-latin-translator#readme"
+}
